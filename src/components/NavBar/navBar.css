@@ -1,0 +1,42 @@
+.navBarBackground{
+    height: 75px;
+    background-color: white;
+    border: 1px solid rgb(164, 164, 164);
+}
+.logo{
+    font-family:Copperplate, Fantasy;
+    font-size:19px;
+    margin-left: 10px;
+    color: black;
+}
+
+.menuLogo{
+    height: 40px;
+    margin-left: 313px;
+    margin-top: -19px;
+}
+
+/* navBar Part2 */
+
+.navBarBackground2{
+    height: 60px;
+    background-color: white;
+    border: 1px solid rgb(213, 213, 213);
+    margin-top: -6px;
+}
+ 
+.searchBar{
+    margin-top: 16px;
+    margin-left: 15px;
+    height: 26px;
+    width: 284px;
+    border-radius: 16px;
+    border: 1px solid rgb(162, 162, 162);
+}
+
+.searchButton{
+    margin-top: 10px;
+    height: 33px;
+    margin-left: 10px;
+}
+

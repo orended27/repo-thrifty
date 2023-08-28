@@ -1,0 +1,12 @@
+.FooterDiv{
+    height: 88px;
+    margin-top: 100px;
+    background-color: rgb(223, 223, 223);
+    border: 1px solid grey;
+}
+.imgLogo{
+
+    height: 45px;
+    margin-top: 21px;
+    margin-left: 22px;
+}

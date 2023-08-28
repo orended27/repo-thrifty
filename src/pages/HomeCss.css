@@ -1,0 +1,31 @@
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+  font-family: system-ui;
+  text-align: center;
+
+}
+.text{
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style des cellules du tableau */
+  .tdM {
+    border: 1px solid rgb(164, 164, 164);
+    padding: 8px;
+    text-align: center;
+    height: 110px;
+  }
+
+  .shoesSize{
+    height: 100px;
+  }
+  
+  
