@@ -14,6 +14,10 @@ tr {
   width: 100%;
   position: relative;
 }
+.tdLS{
+  height: 60px;
+  background-color: #eee;
+}
 .td{
   height: 60px;
 }
@@ -26,5 +30,30 @@ tr {
 }
 .SearchImg{
   height: 40px;
+}
+.signUpBtn{
+  float: left;
+  margin-left: 150px;
+  margin-top: 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+}
+.loginBtn{
+  float: left;
+  margin-left: 160px;
+  margin-top: 3px;
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+}
+.icon{
+  margin-right: 94px;
+float: right;
+}
+
+.icon2{
+  margin-right: 116px;
+float: right;
 }
 

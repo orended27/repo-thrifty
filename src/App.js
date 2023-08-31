@@ -2,11 +2,11 @@
 // import NavBar from './components/NavBar/index';
 // import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from './pages/Layout'
-import Home from './pages/Home'
-import Page_1 from './pages/Page_1'
-import NoPage from './pages/NoPage'
-
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import NoPage from './pages/NoPage';
+import SignUp from "./pages/signUp";
+import Login from "./pages/login";
 
 function App (){
 return (
@@ -14,8 +14,10 @@ return (
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="signUp" element={<Page_1 />}/>
           <Route path="*" element={<NoPage />} />
+          <Route path="signUp" element={<SignUp />} />
+          <Route path="login" element={<Login/>}/>
+
         </Route>
       </Routes>
     </BrowserRouter>
@@ -32,7 +34,7 @@ return (
   //       </article>
   //     </div>
   //   </div>
-)
+);
   // return (<NavBar/>
   // <p> blalalalalala
   // </p>

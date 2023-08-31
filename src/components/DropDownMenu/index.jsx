@@ -8,19 +8,25 @@ const DropDownMenu = ({ handleSelectPage }) => {
         <div className={'menu'}>
             <table>
                 <tbody>
-                <tr>
+                
+                    <tr>
+                        <td className='tdLS'>
+                            <Link to="/signUp" className="signUpBtn" onClick={handleSelectPage}>Sign up</Link>
+                            <img style={{height:"50px"}} className="icon" src="https://thenounproject.com/api/private/icons/736548/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" alt="" />
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className='tdLS'>
+                            <Link to="/login" className="loginBtn" onClick={handleSelectPage}>Login</Link>
+                            <img style={{height:"30px"}} className="icon2" src="https://cdn-icons-png.flaticon.com/128/152/152532.png" alt="" />
+
+
+                        </td>
+                    </tr>
+                    <tr>
                         <td className='td'>      
                             <input className="SearchBar" type="text"  placeholder="          Search..." /> 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className='td'>
-                            <Link to="/signUp" style={{ color: 'black' }} onClick={handleSelectPage}>Sign up</Link>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className='td'>
-                            <Link to="/login" style={{ color: 'black' }} onClick={handleSelectPage}>Login</Link>
                         </td>
                     </tr>
                     
