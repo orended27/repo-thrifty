@@ -1,5 +1,7 @@
 // import {Link} from "react-router-dom";
 import './signUp.css'
+import axios from 'axios'
+// import { useNavigate } from 'react-router';
 
 const SignUp = () => {
 
@@ -75,7 +77,6 @@ const SignUp = () => {
         }
     }
 
-    
 
     function validateForm2(event) {
     event.preventDefault();
@@ -87,6 +88,12 @@ const SignUp = () => {
     var mail = validateMail("mail","errorMail");
 
     trueValidation = trueValidation && username && password && passwordauthentification && mail; // Assign trueValidation the combined result
+
+    if(trueValidation === true){
+        axios.post('http://localhost:8081/')
+        .then(console.log('res'))
+        .catch(console.log('err'));
+    }
 
     return trueValidation; // Return the combined result
 }

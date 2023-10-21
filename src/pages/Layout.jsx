@@ -7,11 +7,6 @@ const Layout = () => {
     <>
         <NavBar />
         <nav>
-            
-                {/* <Link to="/">Home</Link> */}
-            
-                {/* <Link to="/page1">Page 1</Link> */}
-            
         </nav>
         <Outlet />
         <Footer />

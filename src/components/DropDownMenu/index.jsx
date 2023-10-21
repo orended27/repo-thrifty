@@ -25,10 +25,11 @@ const DropDownMenu = ({ handleSelectPage }) => {
                         </td>
                     </tr>
                     <tr>
-                        <td className='td'>      
-                            <input className="SearchBar" type="text"  placeholder="          Search..." /> 
+                        <td className='tdLS'>
+                            <Link to="/Card" className="loginBtn" onClick={handleSelectPage}>Cart</Link>
                         </td>
                     </tr>
+                    
                     
                     {/* Other menu options */}
                 </tbody>

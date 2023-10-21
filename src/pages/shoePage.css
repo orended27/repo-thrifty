@@ -1,0 +1,61 @@
+.pageOrder{
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+}
+
+.shoeName{
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.selectSize{
+    border-radius: 5px;
+    border: solid rgb(188, 188, 188) 1px;
+    width: 320px;
+    height: 50px;
+    font-size: 15px;
+    font-family: Futura,sans-serif;
+
+}
+
+.addToCardBttn{
+    
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Futura,sans-serif;
+}
+
+.buyNow{
+    margin-top: 5px;
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Futura,sans-serif;
+}
+
+.quantityButton{
+    border: solid rgb(188, 188, 188) 1px;
+    font-family: Futura,sans-serif;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    font-size: larger;
+    
+}
+.decreaseIncreaseQuantity{
+    border: solid rgb(188, 188, 188) 1px;
+    font-family: Futura,sans-serif;
+    border-radius: 5px;
+    height: 44px;
+    width: 45px;
+    font-size: larger;
+}
