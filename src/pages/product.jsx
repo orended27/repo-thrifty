@@ -16,7 +16,7 @@ const Product = (props) => {
   
     // Truncate the productName if it's longer than 13 characters
     const truncatedProductName = productName.length > 13
-      ? productName.substring(0, 18) + '...'
+      ? productName.substring(0, 15) + '...'
       : productName;
   
     return (
