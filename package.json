@@ -1,8 +1,8 @@
 {
-  "homepage": "https://orended27.github.io/thriftyts",
   "name": "thriftyt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http:/orended27.github.io/thrifty-pages",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.16.5",
