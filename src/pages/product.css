@@ -1,4 +1,5 @@
 .addToCartBttn {
+    color: black;
     background-color: transparent;
     border: 1px solid rgb(19, 19, 19);
     min-width: 100px;

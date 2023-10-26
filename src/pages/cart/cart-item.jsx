@@ -15,7 +15,7 @@ export const CartItem = (props) => {
         <Link style={{ textDecoration: 'none' }} to={`/ShoePage?shoePic=${productImage}&height=${height}&price=${price}&shoeName=${productName}`}>
                   <ShoeImg
                     shoePic={productImage}
-                    height="100%"
+                    height="150px"
                   />
                 </Link>
       <div className="description">
