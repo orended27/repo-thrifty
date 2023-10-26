@@ -76,3 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # react-deploy
 # thriftyt
 # thrifty-pages
+# thrifty-pages
