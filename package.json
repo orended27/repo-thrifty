@@ -2,7 +2,7 @@
   "name": "thriftyt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://orended27.github.io/react-git-thrift",
+  "homepage": "http://orended27.github.io/react-git-thrifty",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.16.5",
