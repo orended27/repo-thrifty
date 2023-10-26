@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/repo-thrifty/static/css/main.ab037512.css",
+    "main.js": "/repo-thrifty/static/js/main.beb62cd0.js",
+    "static/js/787.69555671.chunk.js": "/repo-thrifty/static/js/787.69555671.chunk.js",
+    "index.html": "/repo-thrifty/index.html",
+    "main.ab037512.css.map": "/repo-thrifty/static/css/main.ab037512.css.map",
+    "main.beb62cd0.js.map": "/repo-thrifty/static/js/main.beb62cd0.js.map",
+    "787.69555671.chunk.js.map": "/repo-thrifty/static/js/787.69555671.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab037512.css",
+    "static/js/main.beb62cd0.js"
+  ]
+}
