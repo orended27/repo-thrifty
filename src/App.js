@@ -5,10 +5,12 @@ import NoPage from './pages/NoPage';
 import SignUp from './pages/signUp';
 import Login from './pages/login';
 import ShoePage from './pages/shoePage';
-import Card from './pages/Card'
+import Card from './pages/cart/Card'
+import {ShopContextProvider} from "../src/context/shop-context"
 
 function App() {
   return (
+    <ShopContextProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -21,6 +23,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </ShopContextProvider>
   );
 }
 

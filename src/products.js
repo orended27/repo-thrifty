@@ -12,7 +12,7 @@ const url4 = 'https://images.stockx.com/images/adidas-Yeezy-700-V3-Kyanite-Produ
 export const PRODUCTS = [
     {
       id: 1,
-      productName: "Jordan 4 military black",
+      productName: "Jordan 4 Millitary Black",
       price: 700.0,
       productImage: url1,
     },
