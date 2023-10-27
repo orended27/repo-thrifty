@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repo-thrifty/static/css/main.6d3a1d64.css",
-    "main.js": "/repo-thrifty/static/js/main.a6e33587.js",
+    "main.css": "/repo-thrifty/static/css/main.861374b3.css",
+    "main.js": "/repo-thrifty/static/js/main.90328f1d.js",
     "static/js/787.69555671.chunk.js": "/repo-thrifty/static/js/787.69555671.chunk.js",
     "index.html": "/repo-thrifty/index.html",
-    "main.6d3a1d64.css.map": "/repo-thrifty/static/css/main.6d3a1d64.css.map",
-    "main.a6e33587.js.map": "/repo-thrifty/static/js/main.a6e33587.js.map",
+    "main.861374b3.css.map": "/repo-thrifty/static/css/main.861374b3.css.map",
+    "main.90328f1d.js.map": "/repo-thrifty/static/js/main.90328f1d.js.map",
     "787.69555671.chunk.js.map": "/repo-thrifty/static/js/787.69555671.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3a1d64.css",
-    "static/js/main.a6e33587.js"
+    "static/css/main.861374b3.css",
+    "static/js/main.90328f1d.js"
   ]
 }
