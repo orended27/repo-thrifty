@@ -8,7 +8,7 @@ export const CartItem = (props) => {
   const { id, productName, price, productImage } = props.data;
   const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
     useContext(ShopContext);
-   const height = '100px';
+   const height = '200px';
 
   return (
     <div className="cartItem">

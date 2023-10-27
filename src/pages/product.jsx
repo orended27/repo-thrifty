@@ -25,7 +25,7 @@ const Product = (props) => {
           <tbody>
             <tr className='tr'>
               <td className='tdM'>
-                <Link style={{ textDecoration: 'none' }} to={`/ShoePage?shoePic=${productImage}&height=${height}&price=${price}&shoeName=${productName}`}>
+                <Link style={{ textDecoration: 'none' }} to={`/ShoePage?shoePic=${productImage}&height=${height}&price=${price}&shoeName=${productName}&id=${id}`}>
                   <ShoeImg
                     shoePic={productImage}
                     height="100px"
@@ -43,4 +43,4 @@ const Product = (props) => {
     );
   };
 
-export default Product;
+export default Product;;
